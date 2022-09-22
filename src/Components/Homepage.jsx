@@ -7,7 +7,7 @@ import "../App.css";
 
 
 function HomePage() {
-  
+
       const [modal, setModal] = useState(false);
 
       const toggleModal = () => {
@@ -45,7 +45,7 @@ function HomePage() {
                 </div>
                 <div className="flex items-start">
                   <div className="flex-col">
-                  <p className="font-italic text-black-800">
+                  <p className="italic bg-green-200 p-4 italic text-justify text-black-800">
                     The best place to learn all things Rwandan Culture
                   a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
                   a single distinct meaningful  <br/> The best place to learn all things Rwandan Culture

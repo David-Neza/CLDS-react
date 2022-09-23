@@ -1,4 +1,4 @@
-import intore from "../images/intore.jpeg"
+import intore from "../images/into.jpg"
 import flag from "../images/flag.png"
 import { useState } from "react";
 import Login from "./Login";
@@ -14,25 +14,10 @@ function HomePage() {
         setModal(!modal);
       };
     
-      // if(modal) {
-      //   document.body.classList.add('active-modal')
-      // } else {
-      //   document.body.classList.remove('active-modal')
-      // }
-    
       return (
         <>
-          {/* <button onClick={toggleModal} className="btn-modal">
-            Open
-          </button>
-    
-          {modal && <Login toggleModal={toggleModal}/>}
-          <p>us  excepturi impedit quae harum eum sit corpo</p>
-        </>
-      ); */}
-
         <div className="flex">
-          <div className="w-full md:w-4/6 lg:w-3/6 xl:w-4/6  min-h-screen flex flex-col justify-center">
+          <div className="w-full md:w-4/6 lg:w-3/6 xl:w-[55%]  min-h-screen flex flex-col justify-center">
               <div className="">
               <div className="flex-col pl-32">
                 <div className="flex">
@@ -44,20 +29,14 @@ function HomePage() {
                 />
                 </div>
                 <div className="flex items-start">
-                  <div className="flex-col">
-                  <p className="italic bg-green-200 p-4 italic text-justify text-black-800">
+                  <div className="flex-col pt-32">
+                  <p className="p-4 text-justify text-black-800">
                     The best place to learn all things Rwandan Culture
                   a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
                   a single distinct meaningful  <br/> The best place to learn all things Rwandan Culture
                   a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
-                  a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
-                  a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
-                  a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
-                  a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
-                  a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
-                  a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
-                  a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
-                  a single distinct meaningful   
+             <br/> The best place to learn all things Rwandan Culture
+ 
                   </p>
                   </div>
                   
@@ -78,7 +57,7 @@ function HomePage() {
               
           </div>
           <div className="flex-1 max-h-screen hidden md:block">
-              <img className="object-cover h-[100%] flex-shrink-0"
+              <img className="object-cover h-full w-full"
                   src={intore} 
                   alt="intore" />
             

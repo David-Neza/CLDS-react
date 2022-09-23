@@ -1,4 +1,5 @@
-import intore from "../images/into.jpg"
+import profilePic from "../images/davo.jpg"
+import background from "../images/bg.jpeg"
 import flag from "../images/flag.png"
 import { useState } from "react";
 import Login from "./Login";
@@ -17,50 +18,56 @@ function HomePage() {
       return (
         <>
         <div className="flex">
-          <div className="w-full md:w-4/6 lg:w-3/6 xl:w-[55%]  min-h-screen flex flex-col justify-center">
-              <div className="">
-              <div className="flex-col pl-32">
-                <div className="flex">
-                    <h1 className="font-mono text-6xl text-black-400">Welcome</h1>
-                <img className="h-[30px]" 
-                    src={flag} 
-                    alt=""
-                
-                />
-                </div>
-                <div className="flex items-start">
-                  <div className="flex-col pt-32">
-                  <p className="p-4 text-justify text-black-800">
-                    The best place to learn all things Rwandan Culture
-                  a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
-                  a single distinct meaningful  <br/> The best place to learn all things Rwandan Culture
-                  a single distinct meaningful   <br/> The best place to learn all things Rwandan Culture
-             <br/> The best place to learn all things Rwandan Culture
- 
-                  </p>
-                  </div>
-                  
-                </div>
-              </div>
-
+          <div className="w-full md:w-4/6 lg:w-3/6 xl:w-[50%]  min-h-screen flex flex-col bg-[#FBF6F5]">
+            <h3 className="flex items-start pl-24 pt-10 font-Roboto font-bold text-6xl">Fortaleza</h3>
+            <div className="flex flex-col items-start justify-center pt-56 pl-24">
+              <h3 className="font-Roboto font-bold text-7xl italic">Hello, <span className="text-5xl italic">my name is David</span> </h3>
+              <p className="pt-6 font-Dancing text-3xl">A &nbsp; 
+              <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block">
+              <span class="relative text-white">full stack software engineer</span>
+              </span>
+              &nbsp; from Rwanda
+               <br/>
+                  I will help your business reach greater heights
+              </p>
               <div>
                   <button 
-                      className="flex items-start ml-32 mt-4 font-mono text-lg bg-transparent text-black-700 font-semibold py-2 px-12 border-2 border-black rounded "
+                      className="flex items-start ml-2 mt-12 font-Dancing text-lg bg-black text-white font-semibold py-4 px-12 border-2 border-black rounded hover:bg-pink-500"
                       onClick={toggleModal}
                 >
-                      Login
+                      view my different project 
                   </button>
 
                   {modal && <Login toggleModal={toggleModal}/>}              
               </div> 
-              </div>
-              
+            </div>
           </div>
           <div className="flex-1 max-h-screen hidden md:block">
-              <img className="object-cover h-full w-full"
-                  src={intore} 
+              <img className="object-cover h-full w-[75%]"
+                  src={profilePic} 
                   alt="intore" />
             
+          </div>
+          <div className="w-[5%]">
+              <div className="pt-4">
+                <div class="space-y-2">
+                <div class="w-9 h-1.5 bg-gray-600"></div>
+                <div class="w-9 h-1.5 bg-gray-600"></div>
+                <div class="w-9 h-1.5 bg-gray-600"></div>
+                </div>
+              </div>
+              <div className="pr-[100%] pt-[450%]">
+                <p className="mr-24 font-bold text-3xl">Skills</p>
+                <p>html</p>
+                <p>Javascript</p>
+                <p>tailwindcss</p>
+                <p>mysql</p>
+                <p></p>
+                <p>html</p>
+                <p>html</p>
+                <p>html</p>
+                <p>html</p>
+              </div>
           </div>
         </div>
         </>

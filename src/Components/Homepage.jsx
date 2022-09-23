@@ -32,7 +32,7 @@ function HomePage() {
               </p>
               <div>
                   <button 
-                      className="flex items-start ml-2 mt-12 font-Dancing text-lg bg-black text-white font-semibold py-4 px-12 border-2 border-black rounded hover:bg-pink-500"
+                      className="flex items-start ml-2 mt-12 font-Dancing text-lg bg-black text-white font-semibold py-4 px-12 border-2 border-black rounded hover:bg-yellow-600"
                       onClick={toggleModal}
                 >
                       view my different project 
@@ -56,17 +56,21 @@ function HomePage() {
                 <div class="w-9 h-1.5 bg-gray-600"></div>
                 </div>
               </div>
-              <div className="pr-[100%] pt-[450%]">
-                <p className="mr-24 font-bold text-3xl">Skills</p>
-                <p>html</p>
-                <p>Javascript</p>
-                <p>tailwindcss</p>
-                <p>mysql</p>
-                <p></p>
-                <p>html</p>
-                <p>html</p>
-                <p>html</p>
-                <p>html</p>
+              <div className="pr-[100%] pt-[300%]">
+                <p className="pt-6 font-Dancing text-3xl">
+              <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-yellow-500 relative inline-block">
+              <span class="relative text-white">Skills</span>
+              </span>
+              &nbsp; 
+              </p>
+                <p className="font-Dancing font-bold text-2xl">Javascript</p>
+                <p className="font-Dancing font-bold text-2xl">Flutter</p>
+                <p className="font-Dancing font-bold text-2xl">Html</p>
+                <p className="font-Dancing font-bold text-2xl">Css</p>  
+                <p className="font-Dancing font-bold text-2xl">Github</p>
+                <p className="font-Dancing font-bold text-2xl">tailwindcss</p>
+                <p className="font-Dancing font-bold text-2xl">mysql</p>
+               
               </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
-import HomePage from './Components/Homepage';
+import HomePage from "./Components/Homepage";
+import "antd/dist/antd.css";
 
 function App() {
   return (

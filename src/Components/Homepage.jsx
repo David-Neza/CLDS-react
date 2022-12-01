@@ -5,6 +5,13 @@ import image from "../images/david.jpg"
 import Navbar from "./Navbar";
 import { Popover } from 'antd';
 import project1 from "../images/bbcrweb.png"
+import {
+  FaLinkedinIn,
+  FaGithub,
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+} from "react-icons/fa";
 
 function HomePage(){ 
   const content = (
@@ -61,6 +68,23 @@ function HomePage(){
               </div>
             </div>
           </div>
+        <div className="mt-8">
+        <footer class="p-4 bg-red-400 rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+    <span class="text-xl text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com/" class="hover:underline">David Neza Tuyishimire™</a>. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-xl text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">Home</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">LinkedIn</a>
+        </li>
+        <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6">Contact Me</a>
+        </li>
+    </ul>
+</footer>
+        </div>
           </div>
         </>
     );

@@ -143,18 +143,23 @@ function HomePage() {
             </span>
             <ul class="flex flex-wrap items-center mt-3 text-xl text-gray-500 dark:text-gray-400 sm:mt-0">
               <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6 ">
+                <a
+                  href="#"
+                  class="mr-4 md:mr-6 hover:no-underline
+            text-black hover:text-blue-800 
+            visited:text-black font-bold"
+                >
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6">
+                <a
+                  href="#"
+                  class="mr-4 md:mr-6 hover:no-underline
+            text-black hover:text-blue-800 
+            visited:text-black font-bold"
+                >
                   LinkedIn
-                </a>
-              </li>
-              <li>
-                <a href="#" class="mr-4 hover:underline md:mr-6">
-                  Contact Me
                 </a>
               </li>
             </ul>

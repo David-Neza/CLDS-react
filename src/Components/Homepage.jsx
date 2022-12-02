@@ -63,15 +63,6 @@ function HomePage() {
         </div>
         <div className="mt-16">
           <h1 className="font-bold text-6xl">Latest Works</h1>
-          <Popover content={hoverOnWork}>
-            <a
-              className="hover:no-underline
-            text-blue-600 hover:text-blue-800 
-            visited:text-black"
-              href="https://bibleway-baptist-churches-of-rwanda.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
               <div className="ml-[400px] w-[1000px] drop-shadow-2xl hover:bg-[#eff6ff] rounded">
                 <div className="flex space-x-24">
                   <div className="">
@@ -90,45 +81,53 @@ function HomePage() {
                       this website to go <br />
                       the website and learn more about the church
                     </p>
+                    <button className="bg-black  w-28 h-10 rounded">
+                    <a
+                      className="text-white font-extrabold"
+                      href="https://bibleway-baptist-churches-of-rwanda.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      CLick to View
+                    </a>
+                  </button>
                   </div>
                 </div>
               </div>
-            </a>
-          </Popover>
+
 
           <div className="mt-16">
-            <Popover content={hoverOnWork}>
-              <a
-                className="hover:no-underline
-            text-blue-600 hover:text-blue-800 
-            visited:text-black"
-                href="https://bibleway-baptist-churches-of-rwanda.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="ml-[400px] w-[1000px] drop-shadow-2xl hover:bg-[#eff6ff] rounded">
-                  <div className="flex space-x-24">
-                    <div className="">
-                      <img
-                        class="object-cover h-[300px] w-[700px]"
-                        src={project1}
-                      />
-                    </div>
-
-                    <div className="grid place-items-start">
-                      <h1 className="font-bold text-2xl pr-8">
-                        Bibleway Baptist Church website
-                      </h1>
-                      <p>
-                        This is a website I create for my church You can visit
-                        this website to go <br />
-                        the website and learn more about the church
-                      </p>
-                    </div>
-                  </div>
+            <div className="ml-[400px] w-[1000px] drop-shadow-2xl hover:bg-[#eff6ff] rounded">
+              <div className="flex space-x-24">
+                <div className="">
+                  <img
+                    class="object-cover h-[300px] w-[700px]"
+                    src={project1}
+                  />
                 </div>
-              </a>
-            </Popover>
+
+                <div className="grid place-items-start">
+                  <h1 className="font-bold text-2xl pr-8">
+                    Bibleway Baptist Church website
+                  </h1>
+                  <p>
+                    This is a website I create for my church You can visit this
+                    website to go <br />
+                    the website and learn more about the church
+                  </p>
+                  <button className="bg-black  w-28 h-10 rounded">
+                    <a
+                      className="text-white font-extrabold"
+                      href="https://bibleway-baptist-churches-of-rwanda.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      CLick to View
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -147,7 +146,7 @@ function HomePage() {
                   href="#"
                   class="mr-4 md:mr-6 hover:no-underline
             text-black hover:text-blue-800 
-            visited:text-black font-bold"
+            visited:text-black redbold"
                 >
                   Home
                 </a>
@@ -157,7 +156,7 @@ function HomePage() {
                   href="#"
                   class="mr-4 md:mr-6 hover:no-underline
             text-black hover:text-blue-800 
-            visited:text-black font-bold"
+            visited:text-black redbold"
                 >
                   LinkedIn
                 </a>
